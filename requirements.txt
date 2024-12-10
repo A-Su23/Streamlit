@@ -1,7 +1,7 @@
 streamlit
 openai
-crew
+crewai
+python-dotenv
 sentence-transformers
 bert-score
 scikit-learn
-python-dotenv
