@@ -327,14 +327,15 @@ def arabic_summarization_workflow(input_text, user_token):
 
     # Validate and return outputs
     outputs = {
-        "summarizer": create_summary.output,
-        "reviewer": review_summary.output,
-        "editor": final_edit.output
+        "summarizer": create_summary.output.exported_output,
+        "reviewer": review_summary.output.exported_output,
+        "editor": final_edit.output.exported_output
     }
     for step, output in outputs.items():
         logging.info(f"{step} output: {output}")
 
     return outputs
+
 
 
 
