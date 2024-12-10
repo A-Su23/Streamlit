@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "streamlit-summarization-app"
+version = "0.1.0"
+description = "A Streamlit app for summarization using various models"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+streamlit = "*"
+openai = "*"
+crewai = "*"
+python-dotenv = "*"
+sentence-transformers = "*"
+bert-score = "*"
+scikit-learn = "*"
+pysqlite3-binary = "*" # Ensures compatibility with SQLite >= 3.35.0
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
