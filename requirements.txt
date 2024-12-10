@@ -1,3 +1,4 @@
+pysqlite3-binary
 streamlit
 openai
 crewai
@@ -5,4 +6,3 @@ python-dotenv
 sentence-transformers
 bert-score
 scikit-learn
-pysqlite3-binary
