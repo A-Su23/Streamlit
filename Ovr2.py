@@ -231,7 +231,7 @@ def arabic_summarization_workflow(input_text, user_token):
     """
     # Set the OpenAI API key and model name globally using the user's token
     os.environ["OPENAI_API_KEY"] = user_token
-    os.environ["OPENAI_MODEL_NAME"] = 'gpt-4'
+    os.environ["OPENAI_MODEL_NAME"] = 'gpt-3.5-turbo'
 
     # Calculate the maximum word count for the summary (40% of the original text)
     original_word_count = len(input_text.split())
