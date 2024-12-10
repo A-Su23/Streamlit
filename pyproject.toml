@@ -1,11 +1,28 @@
 [tool.poetry.dependencies]
-python = "^3.9"
-streamlit = "*"
-openai = "*"
-crewai = "*"
-python-dotenv = "*"
-sentence-transformers = "*"
-bert-score = "*"
-scikit-learn = "*"
-pysqlite3-binary = "*"
-altair = "*"
+python = ">=3.9,<3.12"
+streamlit = "^1.25.0"
+openai = "^0.28.0"
+crewai = "^0.28.8"
+pysqlite3-binary = "^0.5.1"
+python-dotenv = "^1.0.0"
+sentence-transformers = "^2.2.2"
+bert-score = "^0.3.13"
+scikit-learn = "^1.3.0"
+numpy = "^1.26.0"
+regex = "^2023.12.25"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
+black = "^23.9.1"
+pre-commit = "^3.6.0"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.0.0"
+pytest-dotenv = "^0.5.2"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
