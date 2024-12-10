@@ -503,6 +503,8 @@ def render_a3llm_tab():
                             f"\n**Summary to Text Percentage**: {summary_to_text_percentage:.2f}%")
                 except:
                     st.error("Failed to evaluate the summary.")
+			st.warning( f"\n**Summary Length**: {summary_length} words"
+			f"\n**Summary to Text Percentage**: {summary_to_text_percentage:.2f}%")
 
 def render_agentic_tab():
     """
