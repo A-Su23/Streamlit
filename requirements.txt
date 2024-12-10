@@ -4,5 +4,4 @@ python-dotenv==1.0.0
 sentence-transformers==2.2.2
 bert-score==0.3.13
 scikit-learn==1.3.0
-# crewai line depends on how you installed it
-crewai==0.0.1
+crewai==0.83.0
