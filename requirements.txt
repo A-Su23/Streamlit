@@ -4,4 +4,4 @@ python-dotenv
 sentence-transformers
 bert-score
 scikit-learn
-git+https://github.com/A-Su23/crewai.git
+git+https://github.com/org/crewai.git
