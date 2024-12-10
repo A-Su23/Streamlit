@@ -7,5 +7,5 @@ scikit-learn
 torch
 transformers
 crewai==0.83.0
-chromadb==0.5.18
+chromadb==0.4.24
 
