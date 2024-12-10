@@ -368,7 +368,6 @@ def summarize_text_with_api(input_text, temp):
                     "Please ensure the summary is coherent and maintains the original context."
                     "The summary should be in Arabic, and has the length of 20% to 50% Of the original text."
                     "You are not allowed to copy the original text. Use your own words."
-                    "You should'nt include any personal opinion or additional information."
                     "You are not allowed to ansewr any thing other than the requested summary."
                 )},
                 {"role": "user", "content": f"قم بتلخيص النص التالي: {input_text}"}
