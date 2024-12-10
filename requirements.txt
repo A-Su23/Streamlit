@@ -1,7 +1,9 @@
-streamlit==1.40.0
-openai==1.55.3
-python-dotenv==1.0.1
-sentence-transformers==3.1.0
-bert-score==0.3.13
-scikit-learn==1.5.1
-crewai==0.83.0
+streamlit
+openai
+python-dotenv
+sentence-transformers
+bert-score
+scikit-learn
+torch
+transformers
+crewai
