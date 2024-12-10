@@ -611,6 +611,9 @@ The model ensures that summaries are goal-oriented, enhancing clarity, precision
                             f"\n**Summary to Text Percentage**: {summary_to_text_percentage:.2f}%")
                 except:
                     st.error("Failed to evaluate the summary.")
+                    st.info(f"\n**Text Length**: {text_length} words"
+                            f"\n**Summary Length**: {summary_length} words"
+                            f"\n**Summary to Text Percentage**: {summary_to_text_percentage:.2f}%")
     
             else:
                 st.error("Failed to generate summary. Please try again.")
@@ -691,7 +694,9 @@ This page compares the summarization outputs of the **A3LLM Model** and the **Ag
                             f"\n**Summary to Text Percentagee**: {summary_to_text_percentage:.2f}%")
                 except:
                     st.error("Failed to evaluate the summary.")
-
+                    st.info(f"\n**Text Length**: {text_length} words"
+                            f"\n**Summary Length**: {summary_length} words"
+                            f"\n**Summary to Text Percentage**: {summary_to_text_percentage:.2f}%")
         # Column 2: A3LLM Summarization
         with col2:
             st.header("A3LLM Summarization")
@@ -720,6 +725,9 @@ This page compares the summarization outputs of the **A3LLM Model** and the **Ag
                             f"\n**Summary to Text Percentage**: {summary_to_text_percentage:.2f}%")
                 except:
                     st.error("Failed to evaluate the summary.")
+                    st.warning(f"\n**Text Length**: {text_length} words"
+                            f"\n**Summary Length**: {summary_length} words"
+                            f"\n**Summary to Text Percentage**: {summary_to_text_percentage:.2f}%")
             
 
 
