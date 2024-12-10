@@ -1,7 +1,0 @@
-streamlit
-openai
-crew
-sentence-transformers
-bert-score
-scikit-learn
-python-dotenv
