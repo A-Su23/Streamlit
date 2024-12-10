@@ -203,13 +203,16 @@ def calculate_summary_statistics(text, summary):
     if not isinstance(summary, str):
         summary = str(summary)
     # Calculate lengths
-    text_length = len(text)
-    summary_length = len(summary)
+    text_word_count = len(str(text).split())
+    summary_word_count = len(str(summary).split())
     
     # Calculate summary-to-text percentage
-    summary_to_text_percentage = (summary_length / text_length) * 100 if text_length > 0 else 0
+    summary_to_text_percentage = (
+        (summary_word_count / text_word_count) * 100 if text_word_count > 0 else 0
+    )
     
-    return text_length, summary_length, summary_to_text_percentage
+    # Return results as a dictionary
+    return text_word_count, summary_word_count, summary_to_text_percentage
 
 
 def arabic_summarization_workflow(input_text, user_token):
