@@ -6,6 +6,7 @@ bert-score
 scikit-learn
 torch
 transformers
-crewai==0.86.0
-chromadb==0.5.18
+crewai
+chromadb==0.3.21
+
 
