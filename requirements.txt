@@ -5,4 +5,4 @@ python-dotenv
 sentence-transformers
 bert-score
 scikit-learn
-chromadb
+pysqlite3-binary
