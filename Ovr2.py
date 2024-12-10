@@ -18,7 +18,7 @@ OPENAI_API_KEY = st.secrets["OPENAI_API"]
 HUGGINGFACE_API_KEY = st.secrets["HUGGINGFACE_API"]
 # API Client Initialization
 client = OpenAI(
-	base_url="https://g2a39n0enexwrp57.us-east-1.aws.endpoints.huggingface.cloud/v1/", 
+    base_url="https://g2a39n0enexwrp57.us-east-1.aws.endpoints.huggingface.cloud/v1/",  
 	api_key=HUGGINGFACE_API_KEY
 )
 
