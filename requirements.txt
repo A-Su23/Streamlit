@@ -1,15 +1,7 @@
 streamlit
 openai
-crewai
-pysqlite3-binary
 python-dotenv
 sentence-transformers
 bert-score
 scikit-learn
-numpy
-regex
-isort
-black
-pre-commit
-pytest
-pytest-dotenv
+git+https://github.com/A-Su23/crewai.git
