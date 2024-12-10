@@ -14,8 +14,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 load_dotenv() 
 
 
-OPENAI_API_KEY = os.getenv("OPENAI_API")
-HUGGINGFACE_API_KEY = os.getenv("HUGGINGFACE_API")
+OPENAI_API_KEY = st.secrets["OPENAI_API"]
+HUGGINGFACE_API_KEY = st.secrets["HUGGINGFACE_API"]
 # API Client Initialization
 client = OpenAI(
     base_url="https://e9gim5wxyuboirrq.us-east-1.aws.endpoints.huggingface.cloud/v1/", 
